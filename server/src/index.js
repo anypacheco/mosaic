@@ -1,6 +1,9 @@
 const express = require("express");
 const cors = require("cors");
 
+// SQLite setup (tables will be added later)
+const db = require("../database/db");
+
 const app = express();
 
 app.use(cors());
